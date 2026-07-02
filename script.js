@@ -9,7 +9,7 @@ const chatbotBody = document.querySelector("[data-chatbot-body]");
 const chatbotForm = document.querySelector("[data-chatbot-form]");
 const chatbotInput = document.querySelector("[data-chatbot-input]");
 const chatbotQuestion = document.querySelector("[data-chatbot-question]");
-const numeroEmpresa = "5511962872532";
+const numeroEmpresa = "551136860184";
 
 // URL base do backend agente-santana-ar-condicionado (deploy no Railway).
 // Ajuste para a URL real do seu deploy, sem barra no final.
@@ -74,7 +74,7 @@ form?.addEventListener("submit", (event) => {
   const mensagem = data.get("mensagem") || "";
 
   const texto = [
-    "Olá, Moreira!",
+    "Olá, Santana!",
     `Meu nome é ${nome}.`,
     `Meu telefone é ${telefone}.`,
     `Meu espaço é: ${interesse}.`,
@@ -98,7 +98,7 @@ const generateSessionId = () => {
 // Persistência no navegador: lembra a sessão e os dados do visitante para
 // não repetir perguntas em visitas futuras. Protegido para casos em que o
 // localStorage está indisponível (modo privado/bloqueado).
-const STORAGE_KEY = "moreira_chat";
+const STORAGE_KEY = "santana_chat";
 const loadStored = () => {
   try {
     return JSON.parse(window.localStorage.getItem(STORAGE_KEY) || "{}") || {};
@@ -227,7 +227,7 @@ const composeLeadMessage = (fields) => {
   const servico = map["serviço"] || map["servico"];
   const contato = map["contato"] || map["whatsapp"] || map["telefone"];
 
-  const frases = ["Olá, Moreira!"];
+  const frases = ["Olá, Santana!"];
   frases.push(nome ? `Meu nome é ${nome} e vim pelo chat do site.` : "Vim pelo chat do site.");
 
   if (interesse) {
@@ -265,7 +265,7 @@ const buildWhatsappUrl = (originalUrl, leadFields) => {
     const respostas = chatState.transcript
       .filter((entry) => entry.role === "cliente")
       .map((entry) => entry.text);
-    texto = "Olá, Moreira! Vim pelo chat do site e gostaria de um orçamento de climatização.";
+    texto = "Olá, Santana! Vim pelo chat do site e gostaria de um orçamento de climatização.";
     if (respostas.length > 0) texto += ` Informei o seguinte: ${respostas.join("; ")}.`;
   }
 
@@ -390,7 +390,7 @@ const startChat = () => {
         ? `Olá de novo, ${nome}! Que bom te ver por aqui. Quer continuar de onde paramos ou tratar de outra coisa?`
         : chatState.returning
           ? "Olá de novo! Precisa de climatização, manutenção ou assistência?"
-          : "Olá! Sou o assistente da Moreira Ar Condicionado e Refrigeração. Precisa de climatização, manutenção ou assistência?";
+          : "Olá! Sou o assistente da Santana Ar Condicionado. Precisa de climatização, manutenção ou assistência?";
   }
   chatbotInput?.focus();
 };
@@ -445,7 +445,7 @@ chatbotForm?.addEventListener("submit", async (event) => {
         .join(" ")
         .replace(/\s{2,}/g, " ")
         .trim();
-      const message = addChatMessage(cleanText || "Vou te encaminhar para o WhatsApp da Moreira.", "bot");
+      const message = addChatMessage(cleanText || "Vou te encaminhar para o WhatsApp da Santana.", "bot");
       appendWhatsappButton(message, url);
       // Abre o WhatsApp automaticamente (pode ser bloqueado pelo navegador;
       // nesse caso o botão acima garante o acesso).
@@ -456,7 +456,7 @@ chatbotForm?.addEventListener("submit", async (event) => {
   } catch (error) {
     typing?.remove();
     const fallback = addChatMessage(
-      "Tive um problema para responder agora. Você pode falar direto com a Moreira pelo WhatsApp.",
+      "Tive um problema para responder agora. Você pode falar direto com a Santana pelo WhatsApp.",
       "bot error"
     );
 
