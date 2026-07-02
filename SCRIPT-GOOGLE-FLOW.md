@@ -1,13 +1,13 @@
-# SCRIPT GOOGLE FLOW — Santana Ar Condicionado
+# SCRIPT GOOGLE FLOW — Moreira Ar Condicionado e Refrigeração
 
 ## PAPEL
 
 Você é um agente especialista em geração de imagens para websites. Sua tarefa é
-criar todas as imagens deste projeto (Santana Ar Condicionado · climatização
+criar todas as imagens deste projeto (Moreira Ar Condicionado e Refrigeração · climatização
 premium em Itapevi e região metropolitana de São Paulo). Todas devem parecer
 feitas:
 
-- no mesmo lugar (escritório/showroom da Santana), quando aplicável
+- no mesmo lugar (escritório/showroom da Moreira), quando aplicável
 - pela mesma câmera
 - pela mesma equipe
 - com a mesma direção de arte
@@ -26,8 +26,8 @@ feitas:
   destaque) (~3500–5000K).
 - **Paleta predominante:** azul profundo (#081c3a–#15355f), branco limpíssimo,
   dourado-âmbar (#f5c518) como acento principal, verde (#1fae4c) como acento
-  secundário discreto — inspirada na identidade da marca Santana (azul, verde
-  e dourado).
+  secundário discreto — paleta genérica de climatização premium usada nas
+  fotos já geradas para o site (ver nota no final deste documento).
 - **Tipo de lente:** 35mm para ambientes; 50mm e 85mm para detalhes; câmera na
   altura dos olhos para perspectiva clara e profissional.
 - **Composição:** limpa, arejada, linhas horizontais reforçando estabilidade e
@@ -140,6 +140,17 @@ destaque dourado. Clima de satisfação, conforto conquistado.
 Todas as **8 imagens** (`hero`, `servico-instalacao`, `servico-manutencao`,
 `servico-reparos`, `projeto-residencial`, `projeto-comercial`,
 `projeto-corporativo`, `depoimento`) pertencem ao **mesmo projeto visual**:
-Santana Ar Condicionado, com identidade azul profundo + dourado + verde,
-fotografadas pela mesma equipe, com mesma câmera, iluminação e direção de
-arte premium.
+Moreira Ar Condicionado e Refrigeração, fotografadas pela mesma equipe, com
+mesma câmera, iluminação e direção de arte premium.
+
+## NOTA — TROCA DE MARCA (Santana → Moreira)
+
+Este script foi escrito originalmente para a marca Santana Ar Condicionado
+(paleta azul + dourado + verde). O projeto foi rebatizado para Moreira Ar
+Condicionado e Refrigeração (paleta da logo: azul + vermelho/laranja). As 8
+fotos já geradas continuam válidas porque não têm logo, marca ou texto
+visível — são cenários genéricos de climatização premium. Se no futuro for
+necessário regerar as fotos para casar exatamente com os tons vermelho/
+laranja da logo da Moreira, troque as referências de "dourado-âmbar
+(#f5c518)" por um acento vermelho-alaranjado equivalente (ex.: #e04e1f a
+#f2a33c) mantendo o restante das instruções deste documento.

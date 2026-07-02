@@ -1,7 +1,12 @@
-# Santana Ar Condicionado — Site
+# Moreira Ar Condicionado e Refrigeração — Site
 
-Site institucional da Santana Ar Condicionado: climatização residencial e
-comercial em Itapevi e região metropolitana de São Paulo.
+Site institucional da Moreira Ar Condicionado e Refrigeração: climatização
+residencial e comercial em Itapevi e região metropolitana de São Paulo.
+
+> Este repositório ainda usa o nome `site-santana-ar-condicionado` e o
+> backend `agente-santana-ar-condicionado` (nomes originais dos
+> repositórios/infraestrutura); o conteúdo do site já está atualizado para
+> a marca Moreira.
 
 ## Estrutura
 
