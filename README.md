@@ -11,13 +11,11 @@ comercial em Itapevi e região metropolitana de São Paulo.
   integrado ao backend [agente-santana-ar-condicionado](https://github.com/italodve/agente-santana-ar-condicionado)
 - `SCRIPT-GOOGLE-FLOW.md` — prompt para gerar as fotos do site (Google Flow)
 
-## Imagens pendentes
+## Imagens
 
-As imagens abaixo ainda precisam ser geradas/adicionadas na raiz do projeto
-(nomes exatos usados no `index.html`):
+As 8 fotos geradas seguindo o `SCRIPT-GOOGLE-FLOW.md` já estão na raiz do
+projeto (nomes exatos usados no `index.html`):
 
-- `logo.png` — logo real da marca (asset fornecido pelo cliente, não gerado por IA)
-- `favicon.png` — recorte quadrado do logo
 - `hero.jpg`
 - `servico-instalacao.jpg`
 - `servico-manutencao.jpg`
@@ -27,9 +25,13 @@ As imagens abaixo ainda precisam ser geradas/adicionadas na raiz do projeto
 - `projeto-corporativo.jpg`
 - `depoimento.jpg`
 
-As 8 fotos (exceto logo/favicon) devem ser geradas seguindo exatamente o
-`SCRIPT-GOOGLE-FLOW.md` deste repositório, para manter a mesma identidade
-visual em todas.
+## Imagens pendentes
+
+Ainda faltam apenas os assets reais da marca (fornecidos pelo cliente, não
+gerados por IA):
+
+- `logo.png` — logo real da marca
+- `favicon.png` — recorte quadrado do logo
 
 ## Configuração antes do deploy
 
