@@ -1,7 +1,7 @@
 # Santana Ar Condicionado — Site
 
 Site institucional da Santana Ar Condicionado: climatização residencial e
-comercial em Itapevi e região metropolitana de São Paulo.
+comercial em Osasco e região metropolitana de São Paulo.
 
 ## Estrutura
 

@@ -4,7 +4,7 @@
 
 Você é um agente especialista em geração de imagens para websites. Sua tarefa é
 criar todas as imagens deste projeto (Santana Ar Condicionado · climatização
-premium em Itapevi e região metropolitana de São Paulo). Todas devem parecer
+premium em Osasco e região metropolitana de São Paulo). Todas devem parecer
 feitas:
 
 - no mesmo lugar (escritório/showroom da Santana), quando aplicável
