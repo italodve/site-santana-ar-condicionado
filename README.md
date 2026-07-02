@@ -25,13 +25,8 @@ projeto (nomes exatos usados no `index.html`):
 - `projeto-corporativo.jpg`
 - `depoimento.jpg`
 
-## Imagens pendentes
-
-Ainda faltam apenas os assets reais da marca (fornecidos pelo cliente, não
-gerados por IA):
-
-- `logo.png` — logo real da marca
-- `favicon.png` — recorte quadrado do logo
+`logo.png` e `favicon.png` (assets reais da marca, fornecidos pelo cliente,
+não gerados por IA) também já estão na raiz do projeto.
 
 ## Configuração antes do deploy
 
