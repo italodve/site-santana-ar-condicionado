@@ -101,18 +101,6 @@ Sala residencial climatizada: unidade interna branca integrada discretamente
 aconchegante, planta verde sugerindo frescor. Clima de conforto doméstico,
 qualidade de vida.
 
-**`projeto-comercial.jpg` — 4:3**
-Espaço comercial (loja, consultório ou escritório) climatizado: múltiplas
-unidades discretas, temperatura homogênea, iluminação profissional, ambiente
-limpo e arejado. Painel de controle centralizado com detalhe dourado. Foco em
-eficiência e conforto para clientes.
-
-**`projeto-corporativo.jpg` — 4:3**
-Escritório corporativo climatizado com sistema de múltiplas zonas: vidraças
-com vista urbana, unidades internas integradas ao design, painel de gestão
-centralizado (com acentos dourados), ambiente profissional, pessoas ao fundo
-(desfocadas, sem rosto). Clima de sofisticação e controle inteligente.
-
 **`depoimento.jpg` — 4:3**
 Cliente satisfeito em seu espaço climatizado (enquadramento nas mãos, gesto,
 sem foco no rosto): apontando para a unidade, sorriso discreto (se o rosto
@@ -137,11 +125,14 @@ destaque dourado. Clima de satisfação, conforto conquistado.
 
 ## CONFIRMAÇÃO
 
-Todas as **8 imagens** (`hero`, `servico-instalacao`, `servico-manutencao`,
-`servico-reparos`, `projeto-residencial`, `projeto-comercial`,
-`projeto-corporativo`, `depoimento`) pertencem ao **mesmo projeto visual**:
-Moreira Ar Condicionado e Refrigeração, fotografadas pela mesma equipe, com
-mesma câmera, iluminação e direção de arte premium.
+Todas as **6 imagens** (`hero`, `servico-instalacao`, `servico-manutencao`,
+`servico-reparos`, `projeto-residencial`, `depoimento`) pertencem ao **mesmo
+projeto visual**: Moreira Ar Condicionado e Refrigeração, fotografadas pela
+mesma equipe, com mesma câmera, iluminação e direção de arte premium.
+
+`projeto-comercial.jpg` e `projeto-corporativo.jpg` foram removidas do site
+e deste script a pedido do cliente; a seção "Projetos" do `index.html`
+agora mostra apenas o projeto residencial.
 
 ## NOTA — TROCA DE MARCA (Santana → Moreira)
 

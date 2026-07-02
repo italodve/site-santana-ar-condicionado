@@ -18,7 +18,7 @@ residencial e comercial em Itapevi e região metropolitana de São Paulo.
 
 ## Imagens
 
-As 8 fotos geradas seguindo o `SCRIPT-GOOGLE-FLOW.md` já estão na raiz do
+As fotos geradas seguindo o `SCRIPT-GOOGLE-FLOW.md` já estão na raiz do
 projeto (nomes exatos usados no `index.html`):
 
 - `hero.jpg`
@@ -26,9 +26,11 @@ projeto (nomes exatos usados no `index.html`):
 - `servico-manutencao.jpg`
 - `servico-reparos.jpg`
 - `projeto-residencial.jpg`
-- `projeto-comercial.jpg`
-- `projeto-corporativo.jpg`
 - `depoimento.jpg`
+
+`projeto-comercial.jpg` e `projeto-corporativo.jpg` foram removidas da
+seção "Projetos" (e do repositório) a pedido do cliente; a seção agora
+mostra apenas o projeto residencial.
 
 `logo.png` e `favicon.png` (assets reais da marca, fornecidos pelo cliente,
 não gerados por IA) também já estão na raiz do projeto.
