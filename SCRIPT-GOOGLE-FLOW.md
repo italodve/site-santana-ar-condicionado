@@ -63,10 +63,25 @@ Clima de conforto, refinamento e controle. **Esta é a imagem de referência:
 define iluminação, paleta e direção de arte de todas as demais.**
 
 **`servico-instalacao.jpg` — 4:3**
-Técnico especializado (visto de perfil ou de costas, sem rosto em primeiro
-plano) instalando unidade interna de ar condicionado: mãos em luvas técnicas,
-mangueiras refrigeradas visíveis, ambiente limpo, parede azul suave de fundo.
-Clima de profissionalismo e cuidado. Mesma iluminação e paleta da referência.
+Técnico visto de costas / três quartos posterior (rosto não visível ou
+apenas parcialmente de perfil), em pé, instalando uma unidade interna de ar
+condicionado branca fixada na parede. Apenas UM braço erguido e visível, mão
+com luva técnica escura segurando uma chave/ferramenta próxima à tubulação
+de cobre; o outro braço abaixado ao longo do corpo ou apoiado na cintura,
+claramente visível e sem se sobrepor ao primeiro. Mangueiras refrigeradas de
+cobre visíveis ao lado do equipamento, enroladas de forma organizada.
+Ambiente limpo, parede azul suave de fundo. Clima de profissionalismo e
+cuidado. Mesma iluminação e paleta da referência.
+
+*Restrições anatômicas obrigatórias:* figura humana única, exatamente dois
+braços e duas mãos, cada mão com exatamente cinco dedos, proporções
+anatômicas corretas e naturais, sem membros duplicados, sem braços extras,
+sem mãos deformadas, sem dedos fundidos ou sobrepostos, sem artefatos de
+composição corporal.
+
+*Negative prompt:* extra limbs, extra arms, extra hands, duplicated arm,
+malformed hands, fused fingers, distorted anatomy, disfigured, mutated
+body, text, watermark, logo, blurry face
 
 **`servico-manutencao.jpg` — 4:3**
 Técnico limpando/higienizando um filtro de ar condicionado ou serpentina:
